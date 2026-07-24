@@ -1,0 +1,33 @@
+name: refresh-seats
+# 매일 KE 좌석 데이터 갱신 → index.html 재생성 → 커밋.
+# 안전규칙: schedule은 수동(workflow_dispatch) 성공 검증 후에만 추가한다.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: install deps
+        run: pip install curl_cffi
+      - name: crawl (KE, 4개국 × 연말)
+        run: python ke_crawl.py
+      - name: regenerate page
+        run: |
+          python gen_demo2.py
+          cp award_demo.html index.html
+      - name: commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "auto: refresh KE seats data"
+          git push
