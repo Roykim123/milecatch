@@ -145,6 +145,10 @@ table.list{width:100%;border-collapse:collapse;min-width:640px}
 .airtabs button.on{background:var(--accent);color:#fff}
 .airtabs .soon{font-size:10.5px;font-weight:800;background:var(--biz);color:#3a2600;padding:2px 7px;border-radius:6px}
 .airtabs button.on .soon{background:rgba(255,255,255,.92)}
+.ozdday{display:none;align-items:center;gap:8px;margin:0 0 14px;background:color-mix(in srgb,var(--danger) 12%,transparent);
+ border:1px solid color-mix(in srgb,var(--danger) 35%,transparent);color:var(--danger);font-weight:800;font-size:13.5px;padding:9px 15px;border-radius:12px}
+.ozdday.show{display:flex}
+.ozdday b{font-size:15px}
 .ke-content.hide{display:none}
 .ozwrap{display:none;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:44px 24px;text-align:center;box-shadow:var(--shadow)}
 .ozwrap.show{display:block}
@@ -178,6 +182,8 @@ table.list{width:100%;border-collapse:collapse;min-width:640px}
   <button class="on" data-air="ke">✈️ 대한항공</button>
   <button data-air="oz">🅾️ 아시아나 <span class="soon">연말 오픈</span></button>
  </div>
+
+ <div id="ozdday" class="ozdday"></div>
 
  <div class="ke-content">
  <div class="bar">
@@ -344,6 +350,10 @@ document.querySelectorAll(".airtabs button").forEach(t=>t.onclick=()=>{
  f.region="all"; f.cabin="all"; f.biz=false; f.q="";
  document.querySelectorAll('.pick').forEach((p,i)=>p.classList.toggle('on',i===0));
  document.getElementById("bizonly").classList.remove("on");
+ const dd=document.getElementById("ozdday");
+ if(oz){const n=Math.ceil((new Date("2026-12-16T23:59:59+09:00")-new Date())/86400000);
+  dd.innerHTML='⏳ 아시아나 마일리지 발권 <b>D-'+n+'</b> · 2026.12.16(수)까지';dd.classList.add("show");}
+ else dd.classList.remove("show");
  render();
 });
 render();

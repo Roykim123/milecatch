@@ -116,6 +116,10 @@ table.list{width:100%;border-collapse:collapse;min-width:640px}
 .airtabs button.on{background:var(--accent);color:#fff}
 .airtabs .soon{font-size:10.5px;font-weight:800;background:var(--biz);color:#3a2600;padding:2px 7px;border-radius:6px}
 .airtabs button.on .soon{background:rgba(255,255,255,.92)}
+.ozdday{display:none;align-items:center;gap:8px;margin:0 0 14px;background:color-mix(in srgb,var(--danger) 12%,transparent);
+ border:1px solid color-mix(in srgb,var(--danger) 35%,transparent);color:var(--danger);font-weight:800;font-size:13.5px;padding:9px 15px;border-radius:12px}
+.ozdday.show{display:flex}
+.ozdday b{font-size:15px}
 .ke-content.hide{display:none}
 .ozwrap{display:none;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:44px 24px;text-align:center;box-shadow:var(--shadow)}
 .ozwrap.show{display:block}
@@ -149,6 +153,8 @@ table.list{width:100%;border-collapse:collapse;min-width:640px}
   <button class="on" data-air="ke">✈️ 대한항공</button>
   <button data-air="oz">🅾️ 아시아나 <span class="soon">연말 오픈</span></button>
  </div>
+
+ <div id="ozdday" class="ozdday"></div>
 
  <div class="ke-content">
  <div class="bar">
@@ -198,7 +204,7 @@ table.list{width:100%;border-collapse:collapse;min-width:640px}
   <a href="https://xn--ob0b687b5lan1cq1ch1hexa692c.com/booking" target="_blank" rel="noopener">인천공항 주차 예약 →</a>
  </div>
  <p class="foot"><b>안내</b> · 좌석은 매일 1회 갱신되는 참고용 정보이며 실시간 최종 좌석은 대한항공 공식 홈페이지·앱에서 확인하세요.
-  마일 공제는 평수기 편도 참고값. 본 페이지는 대한항공과 무관한 비공식 정보 서비스입니다 · 데이터 2026-07-24 17:16 기준.</p>
+  마일 공제는 평수기 편도 참고값. 본 페이지는 대한항공과 무관한 비공식 정보 서비스입니다 · 데이터 2026-07-25 01:23 기준.</p>
 </div>
 <div id="tip"></div>
 <script>
@@ -315,6 +321,10 @@ document.querySelectorAll(".airtabs button").forEach(t=>t.onclick=()=>{
  f.region="all"; f.cabin="all"; f.biz=false; f.q="";
  document.querySelectorAll('.pick').forEach((p,i)=>p.classList.toggle('on',i===0));
  document.getElementById("bizonly").classList.remove("on");
+ const dd=document.getElementById("ozdday");
+ if(oz){const n=Math.ceil((new Date("2026-12-16T23:59:59+09:00")-new Date())/86400000);
+  dd.innerHTML='⏳ 아시아나 마일리지 발권 <b>D-'+n+'</b> · 2026.12.16(수)까지';dd.classList.add("show");}
+ else dd.classList.remove("show");
  render();
 });
 render();
