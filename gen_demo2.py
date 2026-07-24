@@ -2,24 +2,30 @@
 """seats.json -> award_demo.html (v2: 라이트 테마 + 캘린더 히트맵, awardfares 계열)."""
 import json
 
-d = json.load(open("seats.json", encoding="utf-8"))
-routes = d["routes"]
-MILES = {"일본":{"e":15000,"b":22500},"중국":{"e":15000,"b":22500},
-         "베트남":{"e":20000,"b":30000},"미국":{"e":35000,"b":62500}}
+def _load(p):
+    try: return json.load(open(p, encoding="utf-8"))
+    except FileNotFoundError: return None
 REGION = {"일본":"일본","중국":"중국·동북아","베트남":"동남아","미국":"미주"}
 ORDER  = {"미국":0,"베트남":1,"일본":2,"중국":3}
+MILES_KE = {"일본":{"e":15000,"b":22500},"중국":{"e":15000,"b":22500},"베트남":{"e":20000,"b":30000},"미국":{"e":35000,"b":62500}}
+MILES_OZ = {"일본":{"e":15000,"b":27000},"중국":{"e":15000,"b":27000},"베트남":{"e":20000,"b":30000},"미국":{"e":35000,"b":62500}}
 BOOK = "https://www.koreanair.com/booking/book-and-manage/award-seat-availability"
 PARK = "https://xn--ob0b687b5lan1cq1ch1hexa692c.com/booking"
 
-rows=[]
-for key,r in routes.items():
-    arr=key.split("-")[1]
-    for iso,av in r["dates"].items():
-        rows.append({"date":iso,"arr":arr,"dest":r["dest"],"country":r["country"],
-                     "region":REGION[r["country"]],"e":av["e"],"b":av["b"],
-                     "me":MILES[r["country"]]["e"],"mb":MILES[r["country"]]["b"],
-                     "ord":ORDER[r["country"]]})
-updated = d["updated"][:16].replace("T"," ")
+def _rows(data, miles, book_def):
+    out=[]
+    if not data: return out, ""
+    for key,r in data["routes"].items():
+        arr=key.split("-")[1]; bk=r.get("book_url",book_def)
+        for iso,av in r["dates"].items():
+            out.append({"date":iso,"arr":arr,"dest":r["dest"],"country":r["country"],
+                        "region":REGION.get(r["country"],r["country"]),"e":av["e"],"b":av["b"],
+                        "me":miles[r["country"]]["e"],"mb":miles[r["country"]]["b"],
+                        "ord":ORDER.get(r["country"],9),"bk":bk})
+    return out, (data.get("updated","")[:16].replace("T"," "))
+
+rows_ke, updated = _rows(_load("seats.json"), MILES_KE, BOOK)
+rows_oz, _upd_oz = _rows(_load("oz_seats.json"), MILES_OZ, "https://flyasiana.com/I/KR/KO/MileageSeatSearch.do")
 
 tpl = r"""<title>마일캐치 · 대한항공 마일리지 잔여석 한눈에</title>
 <style>
@@ -225,7 +231,8 @@ table.list{width:100%;border-collapse:collapse;min-width:640px}
 </div>
 <div id="tip"></div>
 <script>
-const DATA=__DATA__, BOOK=__BOOK__;
+const DATA_KE=__DATA_KE__, DATA_OZ=__DATA_OZ__, BOOK=__BOOK__;
+let DATA=DATA_KE, activeBook=BOOK;
 const DOWk=["일","월","화","수","목","금","토"];
 let f={region:"all",cabin:"all",biz:false,q:"",view:"cal"};
 
@@ -288,7 +295,7 @@ function renderList(){
    <td class="c"><span class="pill ${r.e?'e':'n'}">${r.e?'있음':'—'}</span></td>
    <td class="c"><span class="pill ${r.b?'b':'n'}">${r.b?'있음':'—'}</span></td>
    <td class="r"><span style="color:var(--muted);font-size:12.5px">이코 ${r.me.toLocaleString()}</span> · <b style="color:var(--biz)">비즈 ${r.mb.toLocaleString()}</b></td>
-   <td><a class="book" href="${BOOK}" target="_blank" rel="noopener">공홈 예약 ↗</a></td></tr>`;
+   <td><a class="book" href="${r.bk||activeBook}" target="_blank" rel="noopener">공홈 예약 ↗</a></td></tr>`;
  }).join("")||`<tr><td colspan="6" style="padding:40px;text-align:center;color:var(--muted)">조건에 맞는 좌석이 없습니다.</td></tr>`;
 }
 function summary(){
@@ -319,22 +326,33 @@ const tip=document.getElementById("tip");
 document.getElementById("cal").addEventListener("mousemove",e=>{
  const t=e.target.closest("[data-tip]");if(t&&t.dataset.tip){tip.textContent=t.dataset.tip;tip.style.opacity=1;
   tip.style.left=(e.clientX+12)+"px";tip.style.top=(e.clientY+12)+"px";}else tip.style.opacity=0;});
-document.getElementById("cal").addEventListener("click",e=>{if(e.target.closest("[data-book]"))window.open(BOOK,"_blank");});
+document.getElementById("cal").addEventListener("click",e=>{if(e.target.closest("[data-book]"))window.open(activeBook,"_blank");});
 // theme
 const root=document.documentElement;
 document.getElementById("theme").onclick=()=>{const cur=root.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");root.setAttribute("data-theme",cur==="dark"?"light":"dark");};
+if(DATA_OZ.length){const s=document.querySelector(".airtabs .soon");if(s)s.textContent="실시간";}
 document.querySelectorAll(".airtabs button").forEach(t=>t.onclick=()=>{
- document.querySelectorAll(".airtabs button").forEach(x=>x.classList.remove("on"));t.classList.add("on");
  const oz=t.dataset.air==="oz";
- document.querySelector(".ke-content").classList.toggle("hide",oz);
- document.getElementById("ozwrap").classList.toggle("show",oz);
+ if(oz && !DATA_OZ.length){ // 데이터 없으면 준비중 안내
+   document.querySelectorAll(".airtabs button").forEach(x=>x.classList.remove("on"));t.classList.add("on");
+   document.querySelector(".ke-content").classList.add("hide");
+   document.getElementById("ozwrap").classList.add("show"); return; }
+ document.querySelectorAll(".airtabs button").forEach(x=>x.classList.remove("on"));t.classList.add("on");
+ document.querySelector(".ke-content").classList.remove("hide");
+ document.getElementById("ozwrap").classList.remove("show");
+ DATA = oz?DATA_OZ:DATA_KE; activeBook = oz?"https://flyasiana.com/I/KR/KO/MileageSeatSearch.do":BOOK;
+ f.region="all"; f.cabin="all"; f.biz=false; f.q="";
+ document.querySelectorAll('.pick').forEach((p,i)=>p.classList.toggle('on',i===0));
+ document.getElementById("bizonly").classList.remove("on");
+ render();
 });
 render();
 </script>
 """
-html = (tpl.replace("__DATA__", json.dumps(rows, ensure_ascii=False))
+html = (tpl.replace("__DATA_KE__", json.dumps(rows_ke, ensure_ascii=False))
+           .replace("__DATA_OZ__", json.dumps(rows_oz, ensure_ascii=False))
            .replace("__BOOK__", json.dumps(BOOK))
            .replace("__PARK__", PARK)
            .replace("__UPDATED__", updated))
 open("award_demo.html","w",encoding="utf-8").write(html)
-print("v2 written. rows:",len(rows))
+print(f"v2 written. KE rows:{len(rows_ke)} OZ rows:{len(rows_oz)}")
