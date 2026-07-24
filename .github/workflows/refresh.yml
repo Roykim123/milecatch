@@ -3,6 +3,8 @@ name: refresh-seats
 # 안전규칙: schedule은 수동(workflow_dispatch) 성공 검증 후에만 추가한다.
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * *'   # 매일 04:00 KST (수동런 성공검증 완료 후 무장)
 permissions:
   contents: write
 concurrency:
