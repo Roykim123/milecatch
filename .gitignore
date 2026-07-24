@@ -1,0 +1,4 @@
+.gstack/
+__pycache__/
+*.pyc
+award_demo.html
