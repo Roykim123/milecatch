@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T21:32:40",
+ "updated": "2026-09-04T21:10:54",
  "note": "e=이코노미(일반석)/b=비즈니스(프레스티지) 보너스좌석 있음 여부. 실시간 최종은 공홈 확인. 대한항공 비공식.",
  "routes": {
   "ICN-NRT": {
@@ -2827,7 +2827,7 @@
    "dest": "삿포로",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=CTS",
    "days_with_any": 144,
-   "days_econ": 90,
+   "days_econ": 91,
    "days_biz": 115,
    "dates": {
     "2026-09-02": {
@@ -3387,7 +3387,7 @@
      "b": true
     },
     "2027-02-22": {
-     "e": false,
+     "e": true,
      "b": true
     },
     "2027-02-23": {
