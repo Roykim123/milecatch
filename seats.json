@@ -1,19 +1,15 @@
 {
- "updated": "2026-09-12T21:09:19",
+ "updated": "2026-09-13T21:13:27",
  "note": "e=이코노미(일반석)/b=비즈니스(프레스티지) 보너스좌석 있음 여부. 실시간 최종은 공홈 확인. 대한항공 비공식.",
  "routes": {
   "ICN-NRT": {
    "country": "일본",
    "dest": "도쿄/나리타",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=NRT",
-   "days_with_any": 166,
-   "days_econ": 166,
-   "days_biz": 161,
+   "days_with_any": 165,
+   "days_econ": 165,
+   "days_biz": 159,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -64,7 +60,7 @@
     },
     "2026-09-27": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-28": {
      "e": true,
@@ -680,21 +676,17 @@
    "country": "일본",
    "dest": "도쿄/하네다",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HND",
-   "days_with_any": 162,
-   "days_econ": 161,
-   "days_biz": 154,
+   "days_with_any": 159,
+   "days_econ": 158,
+   "days_biz": 151,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-13": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-15": {
      "e": true,
@@ -719,10 +711,6 @@
     "2026-09-20": {
      "e": true,
      "b": true
-    },
-    "2026-09-21": {
-     "e": true,
-     "b": false
     },
     "2026-09-25": {
      "e": true,
@@ -751,10 +739,6 @@
     "2026-10-01": {
      "e": false,
      "b": true
-    },
-    "2026-10-03": {
-     "e": true,
-     "b": false
     },
     "2026-10-04": {
      "e": true,
@@ -1339,13 +1323,9 @@
    "dest": "오사카",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=KIX",
    "days_with_any": 167,
-   "days_econ": 165,
-   "days_biz": 161,
+   "days_econ": 164,
+   "days_biz": 162,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -1411,6 +1391,10 @@
      "b": true
     },
     "2026-10-01": {
+     "e": false,
+     "b": true
+    },
+    "2026-10-02": {
      "e": false,
      "b": true
     },
@@ -1672,7 +1656,7 @@
     },
     "2026-12-06": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-12-07": {
      "e": true,
@@ -2016,14 +2000,10 @@
    "country": "일본",
    "dest": "후쿠오카",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=FUK",
-   "days_with_any": 164,
+   "days_with_any": 162,
    "days_econ": 159,
-   "days_biz": 158,
+   "days_biz": 155,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -2066,7 +2046,7 @@
     },
     "2026-09-25": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-26": {
      "e": true,
@@ -2090,7 +2070,7 @@
     },
     "2026-10-01": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-10-04": {
      "e": true,
@@ -2106,10 +2086,6 @@
     },
     "2026-10-07": {
      "e": true,
-     "b": true
-    },
-    "2026-10-08": {
-     "e": false,
      "b": true
     },
     "2026-10-09": {
@@ -2585,7 +2561,7 @@
      "b": true
     },
     "2027-02-05": {
-     "e": false,
+     "e": true,
      "b": true
     },
     "2027-02-06": {
@@ -2594,7 +2570,7 @@
     },
     "2027-02-07": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2027-02-08": {
      "e": true,
@@ -2682,14 +2658,10 @@
    "country": "일본",
    "dest": "삿포로",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=CTS",
-   "days_with_any": 151,
-   "days_econ": 146,
-   "days_biz": 117,
+   "days_with_any": 148,
+   "days_econ": 145,
+   "days_biz": 121,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": false
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -2720,7 +2692,7 @@
     },
     "2026-09-19": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-20": {
      "e": true,
@@ -2816,7 +2788,7 @@
     },
     "2026-10-22": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-23": {
      "e": true,
@@ -2976,7 +2948,7 @@
     },
     "2026-12-01": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-12-02": {
      "e": true,
@@ -3018,10 +2990,6 @@
      "e": true,
      "b": true
     },
-    "2026-12-12": {
-     "e": true,
-     "b": false
-    },
     "2026-12-13": {
      "e": true,
      "b": true
@@ -3058,10 +3026,6 @@
      "e": true,
      "b": true
     },
-    "2026-12-24": {
-     "e": true,
-     "b": false
-    },
     "2026-12-25": {
      "e": true,
      "b": false
@@ -3075,7 +3039,7 @@
      "b": true
     },
     "2026-12-30": {
-     "e": false,
+     "e": true,
      "b": true
     },
     "2027-01-02": {
@@ -3158,6 +3122,10 @@
      "e": true,
      "b": true
     },
+    "2027-01-22": {
+     "e": true,
+     "b": false
+    },
     "2027-01-23": {
      "e": true,
      "b": false
@@ -3215,7 +3183,7 @@
      "b": true
     },
     "2027-02-10": {
-     "e": false,
+     "e": true,
      "b": true
     },
     "2027-02-11": {
@@ -3280,11 +3248,7 @@
     },
     "2027-02-26": {
      "e": true,
-     "b": false
-    },
-    "2027-02-27": {
-     "e": true,
-     "b": false
+     "b": true
     },
     "2027-02-28": {
      "e": true,
@@ -3298,12 +3262,8 @@
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=OKA",
    "days_with_any": 125,
    "days_econ": 124,
-   "days_biz": 29,
+   "days_biz": 28,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": false
-    },
     "2026-09-12": {
      "e": true,
      "b": false
@@ -3314,7 +3274,7 @@
     },
     "2026-09-14": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-15": {
      "e": true,
@@ -3328,11 +3288,11 @@
      "e": true,
      "b": false
     },
-    "2026-09-19": {
+    "2026-09-18": {
      "e": true,
      "b": false
     },
-    "2026-09-24": {
+    "2026-09-19": {
      "e": true,
      "b": false
     },
@@ -3450,7 +3410,7 @@
     },
     "2026-11-11": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-12": {
      "e": true,
@@ -3473,10 +3433,6 @@
      "b": true
     },
     "2026-11-18": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-20": {
      "e": true,
      "b": false
     },
@@ -3604,7 +3560,11 @@
      "e": true,
      "b": false
     },
-    "2026-12-31": {
+    "2026-12-26": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-27": {
      "e": true,
      "b": false
     },
@@ -3686,7 +3646,7 @@
     },
     "2027-01-23": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2027-01-24": {
      "e": true,
@@ -3796,6 +3756,10 @@
      "e": true,
      "b": false
     },
+    "2027-02-26": {
+     "e": true,
+     "b": false
+    },
     "2027-02-28": {
      "e": true,
      "b": false
@@ -3806,14 +3770,10 @@
    "country": "일본",
    "dest": "나고야",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=NGO",
-   "days_with_any": 168,
+   "days_with_any": 167,
    "days_econ": 167,
-   "days_biz": 149,
+   "days_biz": 147,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -3823,7 +3783,7 @@
      "b": false
     },
     "2026-09-14": {
-     "e": false,
+     "e": true,
      "b": true
     },
     "2026-09-15": {
@@ -4388,7 +4348,7 @@
     },
     "2027-02-05": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2027-02-06": {
      "e": true,
@@ -4488,14 +4448,10 @@
    "country": "베트남",
    "dest": "호치민",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=SGN",
-   "days_with_any": 170,
-   "days_econ": 170,
-   "days_biz": 166,
+   "days_with_any": 169,
+   "days_econ": 169,
+   "days_biz": 165,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -5178,21 +5134,17 @@
    "country": "베트남",
    "dest": "하노이",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HAN",
-   "days_with_any": 169,
-   "days_econ": 169,
-   "days_biz": 146,
+   "days_with_any": 168,
+   "days_econ": 168,
+   "days_biz": 147,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
     },
     "2026-09-13": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-14": {
      "e": true,
@@ -5316,7 +5268,7 @@
     },
     "2026-10-16": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-17": {
      "e": true,
@@ -5864,14 +5816,10 @@
    "country": "베트남",
    "dest": "다낭",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=DAD",
-   "days_with_any": 170,
-   "days_econ": 170,
+   "days_with_any": 169,
+   "days_econ": 169,
    "days_biz": 97,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": false
@@ -5898,7 +5846,7 @@
     },
     "2026-09-18": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-19": {
      "e": true,
@@ -5978,7 +5926,7 @@
     },
     "2026-10-08": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-10-09": {
      "e": true,
@@ -6230,7 +6178,7 @@
     },
     "2026-12-10": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-12-11": {
      "e": true,
@@ -6554,14 +6502,10 @@
    "country": "베트남",
    "dest": "나트랑",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=CXR",
-   "days_with_any": 148,
-   "days_econ": 145,
-   "days_biz": 56,
+   "days_with_any": 146,
+   "days_econ": 143,
+   "days_biz": 58,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": false
-    },
     "2026-09-12": {
      "e": true,
      "b": false
@@ -6679,10 +6623,6 @@
      "b": false
     },
     "2026-10-15": {
-     "e": true,
-     "b": false
-    },
-    "2026-10-16": {
      "e": true,
      "b": false
     },
@@ -6956,7 +6896,7 @@
     },
     "2026-12-25": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-12-26": {
      "e": true,
@@ -7100,7 +7040,7 @@
     },
     "2027-02-13": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2027-02-14": {
      "e": true,
@@ -7156,14 +7096,10 @@
    "country": "베트남",
    "dest": "푸꾸옥",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=PQC",
-   "days_with_any": 142,
-   "days_econ": 141,
+   "days_with_any": 141,
+   "days_econ": 139,
    "days_biz": 19,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": false
@@ -7241,7 +7177,7 @@
      "b": false
     },
     "2026-10-07": {
-     "e": true,
+     "e": false,
      "b": true
     },
     "2026-10-08": {
@@ -7546,7 +7482,7 @@
     },
     "2027-01-01": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2027-01-02": {
      "e": true,
@@ -7734,21 +7670,17 @@
    "country": "중국",
    "dest": "베이징",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=PEK",
-   "days_with_any": 169,
-   "days_econ": 168,
-   "days_biz": 165,
+   "days_with_any": 167,
+   "days_econ": 167,
+   "days_biz": 162,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
     },
     "2026-09-13": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-14": {
      "e": true,
@@ -7836,10 +7768,6 @@
     },
     "2026-10-05": {
      "e": true,
-     "b": true
-    },
-    "2026-10-07": {
-     "e": false,
      "b": true
     },
     "2026-10-09": {
@@ -8421,13 +8349,9 @@
    "dest": "상하이",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=PVG",
    "days_with_any": 167,
-   "days_econ": 166,
-   "days_biz": 166,
+   "days_econ": 165,
+   "days_biz": 167,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -8438,7 +8362,7 @@
     },
     "2026-09-14": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-15": {
      "e": true,
@@ -8522,6 +8446,10 @@
     },
     "2026-10-05": {
      "e": true,
+     "b": true
+    },
+    "2026-10-06": {
+     "e": false,
      "b": true
     },
     "2026-10-10": {
@@ -9098,14 +9026,10 @@
    "country": "중국",
    "dest": "광저우",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=CAN",
-   "days_with_any": 169,
-   "days_econ": 168,
-   "days_biz": 155,
+   "days_with_any": 168,
+   "days_econ": 167,
+   "days_biz": 154,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -9784,14 +9708,10 @@
    "country": "중국",
    "dest": "칭다오",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=TAO",
-   "days_with_any": 171,
-   "days_econ": 170,
-   "days_biz": 170,
+   "days_with_any": 170,
+   "days_econ": 169,
+   "days_biz": 169,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -10478,14 +10398,10 @@
    "country": "중국",
    "dest": "선양",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=SHE",
-   "days_with_any": 171,
-   "days_econ": 171,
-   "days_biz": 171,
+   "days_with_any": 170,
+   "days_econ": 170,
+   "days_biz": 170,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -11172,14 +11088,10 @@
    "country": "중국",
    "dest": "다롄",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=DLC",
-   "days_with_any": 171,
-   "days_econ": 171,
-   "days_biz": 169,
+   "days_with_any": 170,
+   "days_econ": 169,
+   "days_biz": 168,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -11281,7 +11193,7 @@
      "b": true
     },
     "2026-10-07": {
-     "e": true,
+     "e": false,
      "b": true
     },
     "2026-10-08": {
@@ -11866,17 +11778,13 @@
    "country": "미국",
    "dest": "로스앤젤레스",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=LAX",
-   "days_with_any": 158,
-   "days_econ": 157,
-   "days_biz": 20,
+   "days_with_any": 157,
+   "days_econ": 156,
+   "days_biz": 18,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-13": {
      "e": true,
@@ -12508,21 +12416,17 @@
    "country": "미국",
    "dest": "뉴욕",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=JFK",
-   "days_with_any": 158,
-   "days_econ": 158,
-   "days_biz": 41,
+   "days_with_any": 157,
+   "days_econ": 157,
+   "days_biz": 39,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
     },
     "2026-09-13": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-14": {
      "e": true,
@@ -12534,7 +12438,7 @@
     },
     "2026-09-16": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-17": {
      "e": true,
@@ -12806,7 +12710,7 @@
     },
     "2026-11-26": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-11-27": {
      "e": true,
@@ -13026,7 +12930,7 @@
     },
     "2027-01-30": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2027-01-31": {
      "e": true,
@@ -13062,7 +12966,7 @@
     },
     "2027-02-08": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2027-02-09": {
      "e": true,
@@ -13150,14 +13054,10 @@
    "country": "미국",
    "dest": "샌프란시스코",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=SFO",
-   "days_with_any": 161,
-   "days_econ": 161,
-   "days_biz": 1,
+   "days_with_any": 160,
+   "days_econ": 160,
+   "days_biz": 0,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": false
@@ -13187,6 +13087,10 @@
      "b": false
     },
     "2026-09-19": {
+     "e": true,
+     "b": false
+    },
+    "2026-09-20": {
      "e": true,
      "b": false
     },
@@ -13463,10 +13367,6 @@
      "b": false
     },
     "2026-11-28": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-29": {
      "e": true,
      "b": false
     },
@@ -13804,21 +13704,17 @@
    "country": "미국",
    "dest": "시애틀",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=SEA",
-   "days_with_any": 164,
-   "days_econ": 163,
+   "days_with_any": 163,
+   "days_econ": 162,
    "days_biz": 15,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": false
     },
     "2026-09-13": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-14": {
      "e": true,
@@ -14470,16 +14366,24 @@
    "country": "미국",
    "dest": "애틀랜타",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=ATL",
-   "days_with_any": 156,
-   "days_econ": 156,
-   "days_biz": 20,
+   "days_with_any": 158,
+   "days_econ": 155,
+   "days_biz": 22,
    "dates": {
-    "2026-09-11": {
+    "2026-09-12": {
      "e": true,
      "b": true
     },
-    "2026-09-12": {
-     "e": true,
+    "2026-09-13": {
+     "e": false,
+     "b": true
+    },
+    "2026-09-14": {
+     "e": false,
+     "b": true
+    },
+    "2026-09-15": {
+     "e": false,
      "b": true
     },
     "2026-09-16": {
@@ -15104,21 +15008,33 @@
    "country": "미국",
    "dest": "시카고",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=ORD",
-   "days_with_any": 145,
-   "days_econ": 141,
-   "days_biz": 82,
+   "days_with_any": 147,
+   "days_econ": 143,
+   "days_biz": 84,
    "dates": {
-    "2026-09-11": {
+    "2026-09-12": {
      "e": true,
      "b": false
+    },
+    "2026-09-15": {
+     "e": false,
+     "b": true
     },
     "2026-09-16": {
      "e": true,
      "b": true
     },
     "2026-09-17": {
-     "e": false,
+     "e": true,
      "b": true
+    },
+    "2026-09-18": {
+     "e": true,
+     "b": false
+    },
+    "2026-09-19": {
+     "e": true,
+     "b": false
     },
     "2026-09-21": {
      "e": false,
@@ -15150,7 +15066,7 @@
     },
     "2026-09-28": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-29": {
      "e": true,
@@ -15496,10 +15412,6 @@
      "e": true,
      "b": true
     },
-    "2026-12-28": {
-     "e": true,
-     "b": false
-    },
     "2027-01-11": {
      "e": true,
      "b": true
@@ -15694,15 +15606,15 @@
    "country": "미국",
    "dest": "댈러스",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=DFW",
-   "days_with_any": 163,
-   "days_econ": 163,
+   "days_with_any": 162,
+   "days_econ": 162,
    "days_biz": 4,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
+     "e": true,
+     "b": false
+    },
+    "2026-09-13": {
      "e": true,
      "b": false
     },
@@ -15728,7 +15640,7 @@
     },
     "2026-09-19": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-20": {
      "e": true,
@@ -16126,10 +16038,6 @@
      "e": true,
      "b": false
     },
-    "2027-01-04": {
-     "e": true,
-     "b": false
-    },
     "2027-01-05": {
      "e": true,
      "b": false
@@ -16356,14 +16264,10 @@
    "country": "미국",
    "dest": "라스베이거스",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=LAS",
-   "days_with_any": 163,
-   "days_econ": 161,
-   "days_biz": 17,
+   "days_with_any": 162,
+   "days_econ": 160,
+   "days_biz": 16,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -16796,7 +16700,7 @@
      "e": true,
      "b": false
     },
-    "2026-12-30": {
+    "2026-12-31": {
      "e": true,
      "b": false
     },
@@ -17018,14 +16922,10 @@
    "country": "미국",
    "dest": "호놀룰루",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HNL",
-   "days_with_any": 163,
-   "days_econ": 163,
-   "days_biz": 8,
+   "days_with_any": 162,
+   "days_econ": 162,
+   "days_biz": 7,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": false
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -17076,7 +16976,7 @@
     },
     "2026-09-27": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-28": {
      "e": true,
@@ -17680,21 +17580,17 @@
    "country": "미국",
    "dest": "보스턴",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=BOS",
-   "days_with_any": 155,
-   "days_econ": 155,
-   "days_biz": 36,
+   "days_with_any": 154,
+   "days_econ": 154,
+   "days_biz": 35,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
     },
     "2026-09-13": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-09-14": {
      "e": true,
@@ -17738,7 +17634,7 @@
     },
     "2026-09-24": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-25": {
      "e": true,
@@ -18310,14 +18206,10 @@
    "country": "미국",
    "dest": "워싱턴",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=IAD",
-   "days_with_any": 143,
-   "days_econ": 142,
-   "days_biz": 10,
+   "days_with_any": 142,
+   "days_econ": 141,
+   "days_biz": 8,
    "dates": {
-    "2026-09-11": {
-     "e": true,
-     "b": true
-    },
     "2026-09-12": {
      "e": true,
      "b": true
@@ -18348,7 +18240,7 @@
     },
     "2026-09-23": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-09-24": {
      "e": true,
