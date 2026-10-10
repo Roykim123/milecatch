@@ -1,19 +1,15 @@
 {
- "updated": "2026-10-09T22:59:58",
+ "updated": "2026-10-10T22:11:13",
  "note": "e=이코노미(일반석)/b=비즈니스(프레스티지) 보너스좌석 있음 여부. 실시간 최종은 공홈 확인. 대한항공 비공식.",
  "routes": {
   "ICN-NRT": {
    "country": "일본",
    "dest": "도쿄/나리타",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=NRT",
-   "days_with_any": 174,
-   "days_econ": 174,
-   "days_biz": 168,
+   "days_with_any": 173,
+   "days_econ": 173,
+   "days_biz": 167,
    "dates": {
-    "2026-10-09": {
-     "e": true,
-     "b": true
-    },
     "2026-10-10": {
      "e": true,
      "b": true
@@ -712,14 +708,10 @@
    "country": "일본",
    "dest": "도쿄/하네다",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HND",
-   "days_with_any": 170,
-   "days_econ": 169,
-   "days_biz": 162,
+   "days_with_any": 169,
+   "days_econ": 168,
+   "days_biz": 161,
    "dates": {
-    "2026-10-09": {
-     "e": true,
-     "b": true
-    },
     "2026-10-10": {
      "e": true,
      "b": true
@@ -1402,102 +1394,10 @@
    "country": "일본",
    "dest": "오사카",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=KIX",
-   "days_with_any": 84,
-   "days_econ": 83,
-   "days_biz": 80,
+   "days_with_any": 92,
+   "days_econ": 91,
+   "days_biz": 91,
    "dates": {
-    "2026-10-09": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-10": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-11": {
-     "e": true,
-     "b": false
-    },
-    "2026-10-12": {
-     "e": true,
-     "b": false
-    },
-    "2026-10-13": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-14": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-15": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-16": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-17": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-18": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-19": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-20": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-21": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-22": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-23": {
-     "e": true,
-     "b": false
-    },
-    "2026-10-24": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-25": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-26": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-27": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-28": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-29": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-30": {
-     "e": true,
-     "b": true
-    },
-    "2026-10-31": {
-     "e": true,
-     "b": true
-    },
     "2026-11-01": {
      "e": true,
      "b": true
@@ -1739,6 +1639,130 @@
      "b": true
     },
     "2026-12-31": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-02": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-04": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-05": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-14": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-20": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-30": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-31": {
      "e": true,
      "b": true
     }
