@@ -1,19 +1,15 @@
 {
- "updated": "2026-10-16T21:53:13",
+ "updated": "2026-10-17T21:11:51",
  "note": "e=이코노미(일반석)/b=비즈니스(프레스티지) 보너스좌석 있음 여부. 실시간 최종은 공홈 확인. 대한항공 비공식.",
  "routes": {
   "ICN-NRT": {
    "country": "일본",
    "dest": "도쿄/나리타",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=NRT",
-   "days_with_any": 167,
-   "days_econ": 167,
-   "days_biz": 159,
+   "days_with_any": 165,
+   "days_econ": 165,
+   "days_biz": 160,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": true
-    },
     "2026-10-16": {
      "e": true,
      "b": false
@@ -52,7 +48,7 @@
     },
     "2026-10-25": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-26": {
      "e": true,
@@ -72,7 +68,7 @@
     },
     "2026-10-30": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-31": {
      "e": true,
@@ -289,10 +285,6 @@
     "2026-12-23": {
      "e": true,
      "b": true
-    },
-    "2026-12-24": {
-     "e": true,
-     "b": false
     },
     "2026-12-25": {
      "e": true,
@@ -684,14 +676,10 @@
    "country": "일본",
    "dest": "도쿄/하네다",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HND",
-   "days_with_any": 164,
+   "days_with_any": 163,
    "days_econ": 162,
-   "days_biz": 155,
+   "days_biz": 154,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": true
-    },
     "2026-10-16": {
      "e": true,
      "b": false
@@ -717,8 +705,8 @@
      "b": true
     },
     "2026-10-22": {
-     "e": false,
-     "b": true
+     "e": true,
+     "b": false
     },
     "2026-10-23": {
      "e": false,
@@ -726,7 +714,7 @@
     },
     "2026-10-24": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-25": {
      "e": true,
@@ -1350,17 +1338,13 @@
    "country": "일본",
    "dest": "오사카",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=KIX",
-   "days_with_any": 168,
-   "days_econ": 168,
-   "days_biz": 161,
+   "days_with_any": 167,
+   "days_econ": 167,
+   "days_biz": 159,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": true
-    },
     "2026-10-16": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-10-17": {
      "e": true,
@@ -2033,13 +2017,9 @@
    "dest": "후쿠오카",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=FUK",
    "days_with_any": 161,
-   "days_econ": 156,
-   "days_biz": 146,
+   "days_econ": 154,
+   "days_biz": 145,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": false
-    },
     "2026-10-16": {
      "e": true,
      "b": false
@@ -2054,7 +2034,7 @@
     },
     "2026-10-19": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-10-20": {
      "e": true,
@@ -2070,11 +2050,11 @@
     },
     "2026-10-23": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-10-24": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-25": {
      "e": false,
@@ -2102,7 +2082,7 @@
     },
     "2026-11-01": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-11-02": {
      "e": true,
@@ -2115,6 +2095,10 @@
     "2026-11-04": {
      "e": true,
      "b": true
+    },
+    "2026-11-05": {
+     "e": true,
+     "b": false
     },
     "2026-11-07": {
      "e": true,
@@ -2167,6 +2151,10 @@
     "2026-11-19": {
      "e": true,
      "b": true
+    },
+    "2026-11-20": {
+     "e": true,
+     "b": false
     },
     "2026-11-21": {
      "e": true,
@@ -2230,7 +2218,7 @@
     },
     "2026-12-06": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-12-07": {
      "e": true,
@@ -2297,7 +2285,7 @@
      "b": true
     },
     "2026-12-23": {
-     "e": true,
+     "e": false,
      "b": true
     },
     "2026-12-25": {
@@ -2465,7 +2453,7 @@
      "b": true
     },
     "2027-02-05": {
-     "e": true,
+     "e": false,
      "b": true
     },
     "2027-02-07": {
@@ -2547,10 +2535,6 @@
     "2027-02-26": {
      "e": true,
      "b": true
-    },
-    "2027-02-27": {
-     "e": true,
-     "b": false
     },
     "2027-02-28": {
      "e": true,
@@ -2686,14 +2670,10 @@
    "country": "일본",
    "dest": "삿포로",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=CTS",
-   "days_with_any": 155,
-   "days_econ": 148,
-   "days_biz": 124,
+   "days_with_any": 152,
+   "days_econ": 144,
+   "days_biz": 122,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": true
-    },
     "2026-10-16": {
      "e": true,
      "b": true
@@ -2942,10 +2922,6 @@
      "e": true,
      "b": false
     },
-    "2026-12-19": {
-     "e": true,
-     "b": true
-    },
     "2026-12-20": {
      "e": true,
      "b": true
@@ -2958,12 +2934,8 @@
      "e": false,
      "b": true
     },
-    "2026-12-24": {
-     "e": true,
-     "b": false
-    },
     "2026-12-27": {
-     "e": true,
+     "e": false,
      "b": true
     },
     "2026-12-28": {
@@ -2973,10 +2945,6 @@
     "2026-12-29": {
      "e": true,
      "b": true
-    },
-    "2027-01-01": {
-     "e": true,
-     "b": false
     },
     "2027-01-02": {
      "e": true,
@@ -3059,6 +3027,10 @@
      "b": true
     },
     "2027-01-22": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-23": {
      "e": true,
      "b": false
     },
@@ -3316,18 +3288,10 @@
    "country": "일본",
    "dest": "오키나와",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=OKA",
-   "days_with_any": 145,
-   "days_econ": 143,
-   "days_biz": 20,
+   "days_with_any": 141,
+   "days_econ": 139,
+   "days_biz": 22,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": false
-    },
-    "2026-10-16": {
-     "e": true,
-     "b": false
-    },
     "2026-10-20": {
      "e": true,
      "b": false
@@ -3338,7 +3302,7 @@
     },
     "2026-10-22": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-23": {
      "e": true,
@@ -3383,10 +3347,6 @@
     "2026-11-05": {
      "e": false,
      "b": true
-    },
-    "2026-11-06": {
-     "e": true,
-     "b": false
     },
     "2026-11-07": {
      "e": true,
@@ -3434,7 +3394,7 @@
     },
     "2026-11-20": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-21": {
      "e": true,
@@ -3464,19 +3424,11 @@
      "e": true,
      "b": false
     },
-    "2026-11-29": {
-     "e": true,
-     "b": false
-    },
     "2026-11-30": {
      "e": true,
      "b": false
     },
     "2026-12-01": {
-     "e": true,
-     "b": false
-    },
-    "2026-12-02": {
      "e": true,
      "b": false
     },
@@ -3700,6 +3652,10 @@
      "e": true,
      "b": false
     },
+    "2027-02-07": {
+     "e": true,
+     "b": false
+    },
     "2027-02-08": {
      "e": true,
      "b": false
@@ -3906,14 +3862,10 @@
    "country": "일본",
    "dest": "나고야",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=NGO",
-   "days_with_any": 168,
-   "days_econ": 168,
-   "days_biz": 154,
+   "days_with_any": 167,
+   "days_econ": 167,
+   "days_biz": 155,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": false
-    },
     "2026-10-16": {
      "e": true,
      "b": false
@@ -3980,7 +3932,7 @@
     },
     "2026-11-01": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-02": {
      "e": true,
@@ -4588,14 +4540,10 @@
    "country": "베트남",
    "dest": "호치민",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=SGN",
-   "days_with_any": 168,
-   "days_econ": 168,
-   "days_biz": 167,
+   "days_with_any": 167,
+   "days_econ": 166,
+   "days_biz": 165,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": true
-    },
     "2026-10-16": {
      "e": true,
      "b": true
@@ -4870,10 +4818,10 @@
     },
     "2026-12-23": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-12-24": {
-     "e": true,
+     "e": false,
      "b": true
     },
     "2026-12-25": {
@@ -5270,14 +5218,10 @@
    "country": "베트남",
    "dest": "하노이",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HAN",
-   "days_with_any": 168,
-   "days_econ": 168,
-   "days_biz": 138,
+   "days_with_any": 167,
+   "days_econ": 167,
+   "days_biz": 140,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": false
-    },
     "2026-10-16": {
      "e": true,
      "b": false
@@ -5324,7 +5268,7 @@
     },
     "2026-10-27": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-10-28": {
      "e": true,
@@ -5360,7 +5304,7 @@
     },
     "2026-11-05": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-06": {
      "e": true,
@@ -5416,7 +5360,7 @@
     },
     "2026-11-19": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-20": {
      "e": true,
@@ -5500,7 +5444,7 @@
     },
     "2026-12-10": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-12-11": {
      "e": true,
@@ -5952,14 +5896,10 @@
    "country": "베트남",
    "dest": "다낭",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=DAD",
-   "days_with_any": 47,
-   "days_econ": 47,
-   "days_biz": 44,
+   "days_with_any": 159,
+   "days_econ": 158,
+   "days_biz": 112,
    "dates": {
-    "2026-10-15": {
-     "e": true,
-     "b": false
-    },
     "2026-10-16": {
      "e": true,
      "b": false
@@ -6143,6 +6083,458 @@
     "2026-11-30": {
      "e": true,
      "b": true
+    },
+    "2026-12-01": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-02": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-03": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-04": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-05": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-06": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-07": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-08": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-09": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-10": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-11": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-12": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-13": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-14": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-15": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-16": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-17": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-19": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-22": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-23": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-25": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-26": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-30": {
+     "e": false,
+     "b": true
+    },
+    "2027-01-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-02": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-05": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-07": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-08": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-11": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-12": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-16": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-19": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-22": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-24": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-25": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-26": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-28": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-30": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-31": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-06": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-07": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-12": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-15": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-19": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-22": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-25": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-26": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-27": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-04": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-05": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-14": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-20": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-30": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-31": {
+     "e": true,
+     "b": true
     }
    }
   },
@@ -6150,46 +6542,2235 @@
    "country": "베트남",
    "dest": "나트랑",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=CXR",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 157,
+   "days_econ": 155,
+   "days_biz": 69,
+   "dates": {
+    "2026-10-16": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-17": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-19": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-23": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-24": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-26": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-30": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-31": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-01": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-02": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-03": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-04": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-05": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-06": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-07": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-08": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-09": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-10": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-11": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-12": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-13": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-14": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-15": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-16": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-17": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-19": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-23": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-24": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-26": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-28": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-29": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-30": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-01": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-02": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-03": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-04": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-05": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-06": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-07": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-08": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-09": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-10": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-11": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-12": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-13": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-14": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-15": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-16": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-17": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-18": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-19": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-20": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-21": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-22": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-23": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-24": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-25": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-26": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-27": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-28": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-30": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-31": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-01": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-05": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-06": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-07": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-08": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-09": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-12": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-22": {
+     "e": false,
+     "b": true
+    },
+    "2027-01-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-24": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-26": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-27": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-30": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-31": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-01": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-03": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-06": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-08": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-12": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-16": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-21": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-26": {
+     "e": false,
+     "b": true
+    },
+    "2027-02-27": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-01": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-02": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-05": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-06": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-07": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-11": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-13": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-16": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-19": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-22": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-24": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-25": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-26": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-27": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-30": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-31": {
+     "e": true,
+     "b": false
+    }
+   }
   },
   "ICN-PQC": {
    "country": "베트남",
    "dest": "푸꾸옥",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=PQC",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 145,
+   "days_econ": 145,
+   "days_biz": 25,
+   "dates": {
+    "2026-10-17": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-18": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-19": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-20": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-22": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-24": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-25": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-26": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-30": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-31": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-01": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-02": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-03": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-04": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-05": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-06": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-07": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-08": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-09": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-10": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-11": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-12": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-13": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-14": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-15": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-16": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-17": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-20": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-21": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-22": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-23": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-24": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-25": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-26": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-27": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-28": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-29": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-30": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-01": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-02": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-03": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-04": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-05": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-06": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-07": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-08": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-09": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-11": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-12": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-13": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-14": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-15": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-16": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-17": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-20": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-21": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-22": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-23": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-27": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-28": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-29": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-30": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-31": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-01": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-03": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-05": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-07": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-08": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-09": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-11": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-12": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-19": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-21": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-22": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-24": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-25": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-26": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-27": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-28": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-29": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-30": {
+     "e": true,
+     "b": false
+    },
+    "2027-01-31": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-01": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-03": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-07": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-08": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-09": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-11": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-13": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-16": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-19": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-22": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-24": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-25": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-26": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-01": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-05": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-08": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-11": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-12": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-13": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-15": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-16": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-19": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-24": {
+     "e": true,
+     "b": false
+    },
+    "2027-03-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-27": {
+     "e": true,
+     "b": true
+    }
+   }
   },
   "ICN-PEK": {
    "country": "중국",
    "dest": "베이징",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=PEK",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 167,
+   "days_econ": 167,
+   "days_biz": 158,
+   "dates": {
+    "2026-10-16": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-17": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-19": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-20": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-21": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-23": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-24": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-26": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-28": {
+     "e": true,
+     "b": false
+    },
+    "2026-10-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-30": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-31": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-01": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-02": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-03": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-04": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-05": {
+     "e": true,
+     "b": false
+    },
+    "2026-11-06": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-07": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-08": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-09": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-10": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-11": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-12": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-13": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-14": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-15": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-16": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-17": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-19": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-23": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-24": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-26": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-30": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-01": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-02": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-03": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-04": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-05": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-06": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-07": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-08": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-09": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-10": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-11": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-12": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-13": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-14": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-15": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-16": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-17": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-19": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-23": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-24": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-26": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-30": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-31": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-02": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-04": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-05": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-14": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-20": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-30": {
+     "e": true,
+     "b": true
+    },
+    "2027-01-31": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-02": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-04": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-05": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-14": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-20": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-02": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-04": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-05": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-14": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-20": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-30": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-31": {
+     "e": true,
+     "b": true
+    }
+   }
   },
   "ICN-PVG": {
    "country": "중국",
    "dest": "상하이",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=PVG",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 46,
+   "days_econ": 44,
+   "days_biz": 46,
+   "dates": {
+    "2026-10-16": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-17": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-18": {
+     "e": false,
+     "b": true
+    },
+    "2026-10-19": {
+     "e": false,
+     "b": true
+    },
+    "2026-10-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-23": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-24": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-26": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-30": {
+     "e": true,
+     "b": true
+    },
+    "2026-10-31": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-01": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-02": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-03": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-04": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-05": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-06": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-07": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-08": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-09": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-10": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-11": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-12": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-13": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-14": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-15": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-16": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-17": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-19": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-23": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-24": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-26": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-11-30": {
+     "e": true,
+     "b": true
+    }
+   }
   },
   "ICN-CAN": {
    "country": "중국",
    "dest": "광저우",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=CAN",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 31,
+   "days_econ": 31,
+   "days_biz": 31,
+   "dates": {
+    "2026-12-01": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-02": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-03": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-04": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-05": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-06": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-07": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-08": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-09": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-10": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-11": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-12": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-13": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-14": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-15": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-16": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-17": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-18": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-19": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-20": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-21": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-22": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-23": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-24": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-25": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-26": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-27": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-28": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-29": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-30": {
+     "e": true,
+     "b": true
+    },
+    "2026-12-31": {
+     "e": true,
+     "b": true
+    }
+   }
   },
   "ICN-TAO": {
    "country": "중국",
@@ -6204,10 +8785,135 @@
    "country": "중국",
    "dest": "선양",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=SHE",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 31,
+   "days_econ": 31,
+   "days_biz": 31,
+   "dates": {
+    "2027-03-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-02": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-03": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-04": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-05": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-06": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-14": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-18": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-20": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-21": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-25": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-28": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-29": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-30": {
+     "e": true,
+     "b": true
+    },
+    "2027-03-31": {
+     "e": true,
+     "b": true
+    }
+   }
   },
   "ICN-DLC": {
    "country": "중국",
@@ -6222,10 +8928,123 @@
    "country": "미국",
    "dest": "로스앤젤레스",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=LAX",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 28,
+   "days_econ": 28,
+   "days_biz": 8,
+   "dates": {
+    "2027-02-01": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-03": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-05": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-06": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-07": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-08": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-09": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-10": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-11": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-12": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-13": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-15": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-16": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-17": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-21": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-23": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-25": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-26": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-28": {
+     "e": true,
+     "b": false
+    }
+   }
   },
   "ICN-JFK": {
    "country": "미국",
@@ -6240,10 +9059,123 @@
    "country": "미국",
    "dest": "샌프란시스코",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=SFO",
-   "days_with_any": 0,
-   "days_econ": 0,
+   "days_with_any": 28,
+   "days_econ": 28,
    "days_biz": 0,
-   "dates": {}
+   "dates": {
+    "2026-12-01": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-02": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-03": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-04": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-05": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-06": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-07": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-08": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-09": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-10": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-11": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-12": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-13": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-14": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-15": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-16": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-17": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-18": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-19": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-20": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-21": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-22": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-24": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-25": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-26": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-27": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-28": {
+     "e": true,
+     "b": false
+    },
+    "2026-12-29": {
+     "e": true,
+     "b": false
+    }
+   }
   },
   "ICN-SEA": {
    "country": "미국",
@@ -6258,10 +9190,123 @@
    "country": "미국",
    "dest": "애틀랜타",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=ATL",
-   "days_with_any": 0,
-   "days_econ": 0,
-   "days_biz": 0,
-   "dates": {}
+   "days_with_any": 28,
+   "days_econ": 28,
+   "days_biz": 13,
+   "dates": {
+    "2027-02-01": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-02": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-03": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-04": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-05": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-06": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-07": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-08": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-09": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-10": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-11": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-12": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-13": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-14": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-15": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-16": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-17": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-18": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-19": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-20": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-21": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-22": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-23": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-24": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-25": {
+     "e": true,
+     "b": false
+    },
+    "2027-02-26": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-27": {
+     "e": true,
+     "b": true
+    },
+    "2027-02-28": {
+     "e": true,
+     "b": false
+    }
+   }
   },
   "ICN-ORD": {
    "country": "미국",
