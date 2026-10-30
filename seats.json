@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T23:04:06",
+ "updated": "2026-10-30T22:45:19",
  "note": "e=이코노미(일반석)/b=비즈니스(프레스티지) 보너스좌석 있음 여부. 실시간 최종은 공홈 확인. 대한항공 비공식.",
  "routes": {
   "ICN-NRT": {
@@ -8,19 +8,15 @@
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=NRT",
    "days_with_any": 153,
    "days_econ": 153,
-   "days_biz": 150,
+   "days_biz": 144,
    "dates": {
-    "2026-10-29": {
-     "e": true,
-     "b": true
-    },
     "2026-10-30": {
      "e": true,
      "b": true
     },
     "2026-10-31": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-11-01": {
      "e": true,
@@ -80,7 +76,7 @@
     },
     "2026-11-15": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-16": {
      "e": true,
@@ -109,6 +105,10 @@
     "2026-11-22": {
      "e": true,
      "b": true
+    },
+    "2026-11-23": {
+     "e": true,
+     "b": false
     },
     "2026-11-24": {
      "e": true,
@@ -212,7 +212,7 @@
     },
     "2026-12-19": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-12-20": {
      "e": true,
@@ -232,11 +232,11 @@
     },
     "2026-12-24": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-12-25": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2026-12-26": {
      "e": true,
@@ -268,7 +268,7 @@
     },
     "2027-01-02": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2027-01-03": {
      "e": true,
@@ -408,7 +408,7 @@
     },
     "2027-02-06": {
      "e": true,
-     "b": true
+     "b": false
     },
     "2027-02-07": {
      "e": true,
@@ -628,14 +628,10 @@
    "country": "일본",
    "dest": "도쿄/하네다",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HND",
-   "days_with_any": 153,
-   "days_econ": 153,
-   "days_biz": 148,
+   "days_with_any": 149,
+   "days_econ": 149,
+   "days_biz": 144,
    "dates": {
-    "2026-10-29": {
-     "e": true,
-     "b": true
-    },
     "2026-10-30": {
      "e": true,
      "b": true
@@ -702,7 +698,7 @@
     },
     "2026-11-15": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-16": {
      "e": true,
@@ -852,10 +848,6 @@
      "e": true,
      "b": true
     },
-    "2026-12-24": {
-     "e": true,
-     "b": true
-    },
     "2026-12-25": {
      "e": true,
      "b": true
@@ -877,10 +869,6 @@
      "b": true
     },
     "2026-12-30": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-31": {
      "e": true,
      "b": true
     },
@@ -1021,10 +1009,6 @@
      "b": true
     },
     "2027-02-04": {
-     "e": true,
-     "b": true
-    },
-    "2027-02-05": {
      "e": true,
      "b": true
     },
@@ -1242,7 +1226,7 @@
     },
     "2027-03-31": {
      "e": true,
-     "b": true
+     "b": false
     }
    }
   },
@@ -1250,14 +1234,10 @@
    "country": "일본",
    "dest": "오사카",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=KIX",
-   "days_with_any": 95,
-   "days_econ": 95,
-   "days_biz": 89,
+   "days_with_any": 32,
+   "days_econ": 32,
+   "days_biz": 27,
    "dates": {
-    "2026-10-29": {
-     "e": true,
-     "b": true
-    },
     "2026-10-30": {
      "e": true,
      "b": true
@@ -1360,7 +1340,7 @@
     },
     "2026-11-24": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-25": {
      "e": true,
@@ -1383,254 +1363,6 @@
      "b": true
     },
     "2026-11-30": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-01": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-02": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-03": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-04": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-05": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-06": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-07": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-08": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-09": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-10": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-11": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-12": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-13": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-14": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-15": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-16": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-17": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-18": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-19": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-20": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-21": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-22": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-23": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-24": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-25": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-26": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-27": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-28": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-29": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-30": {
-     "e": true,
-     "b": true
-    },
-    "2026-12-31": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-01": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-02": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-03": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-04": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-05": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-06": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-07": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-08": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-09": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-10": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-11": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-12": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-13": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-14": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-15": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-16": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-17": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-18": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-19": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-20": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-21": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-22": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-23": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-24": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-25": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-26": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-27": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-28": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-29": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-30": {
-     "e": true,
-     "b": true
-    },
-    "2027-01-31": {
      "e": true,
      "b": true
     }
