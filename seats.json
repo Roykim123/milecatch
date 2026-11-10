@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T01:50:30",
+ "updated": "2026-11-10T23:52:24",
  "note": "e=이코노미(일반석)/b=비즈니스(프레스티지) 보너스좌석 있음 여부. 실시간 최종은 공홈 확인. 대한항공 비공식.",
  "routes": {
   "ICN-NRT": {
@@ -8,7 +8,7 @@
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=NRT",
    "days_with_any": 170,
    "days_econ": 170,
-   "days_biz": 155,
+   "days_biz": 157,
    "dates": {
     "2026-11-10": {
      "e": true,
@@ -40,7 +40,7 @@
     },
     "2026-11-17": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2026-11-18": {
      "e": true,
@@ -688,7 +688,7 @@
     },
     "2027-04-30": {
      "e": true,
-     "b": false
+     "b": true
     }
    }
   },
@@ -696,9 +696,9 @@
    "country": "일본",
    "dest": "도쿄/하네다",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=HND",
-   "days_with_any": 167,
-   "days_econ": 167,
-   "days_biz": 155,
+   "days_with_any": 168,
+   "days_econ": 168,
+   "days_biz": 157,
    "dates": {
     "2026-11-10": {
      "e": true,
@@ -1286,7 +1286,7 @@
     },
     "2027-04-09": {
      "e": true,
-     "b": false
+     "b": true
     },
     "2027-04-10": {
      "e": true,
@@ -1367,6 +1367,10 @@
     "2027-04-29": {
      "e": true,
      "b": true
+    },
+    "2027-04-30": {
+     "e": true,
+     "b": true
     }
    }
   },
@@ -1374,14 +1378,10 @@
    "country": "일본",
    "dest": "오사카",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=KIX",
-   "days_with_any": 112,
+   "days_with_any": 111,
    "days_econ": 111,
-   "days_biz": 107,
+   "days_biz": 106,
    "dates": {
-    "2026-11-09": {
-     "e": true,
-     "b": true
-    },
     "2026-11-10": {
      "e": true,
      "b": true
@@ -1735,7 +1735,7 @@
      "b": false
     },
     "2027-02-06": {
-     "e": false,
+     "e": true,
      "b": true
     },
     "2027-02-07": {
@@ -2057,63 +2057,10 @@
    "country": "미국",
    "dest": "워싱턴",
    "book_url": "https://www.koreanair.com/booking/book-and-manage/award-seat-availability?dep=ICN&arr=IAD",
-   "days_with_any": 13,
-   "days_econ": 13,
-   "days_biz": 5,
-   "dates": {
-    "2026-11-09": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-10": {
-     "e": true,
-     "b": true
-    },
-    "2026-11-11": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-19": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-20": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-21": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-22": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-23": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-24": {
-     "e": true,
-     "b": false
-    },
-    "2026-11-25": {
-     "e": true,
-     "b": true
-    },
-    "2026-11-26": {
-     "e": true,
-     "b": true
-    },
-    "2026-11-27": {
-     "e": true,
-     "b": true
-    },
-    "2026-11-28": {
-     "e": true,
-     "b": true
-    }
-   }
+   "days_with_any": 0,
+   "days_econ": 0,
+   "days_biz": 0,
+   "dates": {}
   }
  }
 }
